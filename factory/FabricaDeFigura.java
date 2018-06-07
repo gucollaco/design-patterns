@@ -13,14 +13,14 @@ public class FabricaDeFigura {
 		return facade;
 	}
 
-	public static Figura criarFigura(String forma, double lado, double raio) {
+	public static Figura criarFigura(String forma, double valor) {
 		switch(forma) {
 			case "Quadrado":
-				return criarQuadrado(lado);
+				return criarQuadrado(valor);
 			case "Circulo":
-				return criarCirculo(raio);
+				return criarCirculo(valor);
 			case "TrianguloEquilatero":
-				return criarTriEquilatero(lado);
+				return criarTriEquilatero(valor);
 			default:
 				break;
 		}
