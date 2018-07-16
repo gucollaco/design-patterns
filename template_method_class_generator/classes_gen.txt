@@ -1,0 +1,6 @@
+public class Gustavo {
+	private string message;
+	public Gustavo() {
+		this.message = asdinasodiasd;
+	}
+}
